@@ -1,0 +1,18 @@
+<NotepadPlus>
+    <Project name="altyazi">
+        <Folder name="altyazi">
+            <Folder name="spiders">
+                <File name="altyazi\spiders\subtitle.py" />
+                <File name="altyazi\spiders\__init__.py" />
+                <File name="altyazi\spiders\__init__.pyc" />
+            </Folder>
+            <File name="altyazi\items.py" />
+            <File name="altyazi\pipelines.py" />
+            <File name="altyazi\settings.py" />
+            <File name="altyazi\settings.pyc" />
+            <File name="altyazi\__init__.py" />
+            <File name="altyazi\__init__.pyc" />
+        </Folder>
+        <File name="scrapy.cfg" />
+    </Project>
+</NotepadPlus>

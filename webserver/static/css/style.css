@@ -1,0 +1,40 @@
+body{
+  background: #b3b3b0;
+  background: -moz-linear-gradient(top,#b3b3b0 0,#e3e2dd 500px);
+  background: -webkit-linear-gradient(#b3b3b0 0,#e3e2dd 500px);
+  background: -ms-linear-gradient(top,#b3b3b0 0,#e3e2dd 500px);
+  background: linear-gradient(top,#b3b3b0 0,#e3e2dd 500px);
+  background-color: #e3e2dd;
+  background-repeat: no-repeat;
+
+}
+
+#root{
+  width: 1008px;
+  margin:auto;
+}
+
+nav,footer.page-footer{
+  background-color: #404041;
+  margin-top:0px;
+}
+
+nav .brand-logo{
+  padding-left: 20px;
+}
+
+.page-content{
+  background: -moz-linear-gradient(top,rgba(0,0,0,0.3) 0,rgba(0,0,0,0) 7px);
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0.3) 0,rgba(0,0,0,0) 7px);
+  background: -ms-linear-gradient(top,rgba(0,0,0,0.3) 0,rgba(0,0,0,0) 7px);
+  background: linear-gradient(top,rgba(0,0,0,0.3) 0,rgba(0,0,0,0) 7px);
+  background-repeat: no-repeat;
+  background-size: 100% 7px;
+  background-color: #FFF;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  min-height:800px;
+
+}
