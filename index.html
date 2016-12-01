@@ -1,418 +1,805 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>Fatma Aşık</title>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Fatma Aşık</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-    
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    
-    <script src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
-    <script src="assets/js/Chart.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body data-spy="scroll" data-offset="0" data-target="#nav">
-
-	<div id="section-topbar">
-		<div id="topbar-inner">
+		<!-- webfonts -->
+		 <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+	</head>
+	<body>
+		<!-- container -->
+			<!-- header -->
+		<div id="home" class="header">
 			<div class="container">
-				<div class="row">
-					<div class="dropdown">
-						<ul id="nav" class="nav">
-							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
-						</ul><!--/ uL#nav -->
-					</div><!-- /.dropdown -->
-
-					<div class="clear"></div>
-				</div><!--/.row -->
-			</div><!--/.container -->
-
-			<div class="clear"></div>
-		</div><!--/ #topbar-inner -->
-	</div><!--/ #section-topbar -->
-	
-	<div id="headerwrap">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-12">
-					<h1>Fatma Aşık</h1>
-					<h3>Web Designer | fatmaasik33@gmail.com</h3>
-				</div><!--/.col-lg-12 -->
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/.#headerwrap -->
-	
-
-	<section id="about" name="about"></section>
-	<div id="intro">
-		<div class="container">
-			<div class="row">
-				
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>ABOUT</h5>
-				</div>
-				<div class="col-lg-6">
-					<p>Hi! I'm Fatma Aşık from Mersin and 24 years old. I graduated from Department of Computer Engineering at Muğla Sıtkı Koçman University. I'm interested in mobile and web application development. </p>
-				</div>
-				<div class="col-lg-3">
-					<p><a href="assets/Asik_Fatma_CV.pdf"><i class="icon-file"></i> <sm> DOWNLOAD PDF</sm></a> </p>
-				</div>
-				
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #intro -->
-
-
-	<section id="resume" name="resume"></section>
-	<!--EDUCATION DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>EDUCATION</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Department of Computer Engineering </t><br/>
-						Muğla Sıtkı Koçman University  <br/>
-						<i>4 Years Course</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>GRADUATING IN SEPT 2016</sm><br/>
-					<imp><sm>IN PROGRESS</sm></imp>
-					</p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Department of Computer Engineering English Preparatory Class</t><br/>
-						Muğla Sıtkı Koçman University <br/>
-						<i>1 Years Course</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JUNE 2012</sm></p>
-				</div>
-	
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-	
-	
-	<!--INTERNSHIP DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>INTERNSHIPS</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Front-end and Back-end Developer </t><br/>
-						Muğla Sıtkı Koçman University <br/>
-					</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JUNE 2016 - CURRENT</sm></p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Game Designer</t><br/>
-						Muğla Sıtkı Koçman University <br/>
-					</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JULY 2015 - AUGUST 2015</sm></p>
-				</div>
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-
-	<!--CERTIFICATE INFORMATION -->
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>CERTIFICATES</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>CCNA Routing and Switching: Introduction to Networks </t><br/>
-						Muğla Sıtkı Koçman University <br/>
-						<i>1 Semester Course</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>SEPT 2014 - JAN 2015</sm></p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>CISCO Introduction to Cybersecurity</t><br/>
-						Muğla Sıtkı Koçman University <br/>
-						<i>1 Semester Course</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JAN 2015 - JUN 2015</sm></p>
-				</div>
-
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>CCNA Routing and Switching:  Routing and Switching Essentials</t><br/>
-						Muğla Sıtkı Koçman University <br/>
-						<i>1 Semester Course</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>SEPT 2015 - JAN 2016</sm></p>
-				</div>
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-	
-	
-	<!--SKILLS DESCRIPTION -->
-	<div id="skillswrap">
-		<div class="container">
-			<div class="row">
-					<div class="col-lg-2 col-lg-offset-1">
-						<h5>SKILLS</h5>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="javascript" height="130" width="130"></canvas>
-						<p>Python</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 80,
-										color:"#1abc9c"
-									},
-									{
-										value : 20,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="bootstrap" height="130" width="130"></canvas>
-						<p>Bootstrap</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 90,
-										color:"#1abc9c"
-									},
-									{
-										value : 10,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="wordpress" height="130" width="130"></canvas>
-						<p>Javascript</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 65,
-										color:"#1abc9c"
-									},
-									{
-										value : 35,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					
-					<div class="col-lg-3 col-lg-offset-3 centered">
-						<canvas id="html" height="130" width="130"></canvas>
-						<p>HTML/CSS</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 80,
-										color:"#1abc9c"
-									},
-									{
-										value : 20,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="photoshop" height="130" width="130"></canvas>
-						<p>PHP</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 70,
-										color:"#1abc9c"
-									},
-									{
-										value : 30,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="illustrator" height="130" width="130"></canvas>
-						<p>SQL</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 50,
-										color:"#1abc9c"
-									},
-									{
-										value : 50,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-
-			</div><!--/.row -->
-			<br>
-		</div><!--/.container -->
-	</div><!--/ #skillswrap -->
-
-
-
-	<section id="work" name="work"></section>
-	<!--PORTFOLIO DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>PORTFOLIO</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><a href="assets/img/senior-project.png" target="_blank"><img class="img-responsive" src="assets/img/senior-project.png" alt=""></a></p>
-				</div>
-				<div class="col-lg-3">
-					<p>SENIOR DESIGN PROJECT</p>
-				<p><more>
-					--> The language used by a newspaper columnist is influenced by his/her ideological, political, cultural leanings</br>
-					--> Our goal is to analyze word choices of columnist and newspapers to discover similarities and differences</br>
-					--> Ability to cluster newspapers based on similar language usage</br>
-					--> Discover different contexts of words in different newspapers
-					
-					<br/><br/>
-					<sm><i class="icon-tag"></i> design</sm></more> 
-				</p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><a href="assets/img/web-mining.png" target="_blank"><img class="img-responsive" src="assets/img/web-mining.png" alt=""></a></p>
-				</div>
-				<div class="col-lg-3">
-						<p>WEB MINING</p>
-					<p><more>
-					This project was built with; </br>
-					
-						 --> Scrapy (Python Web Crawling Framework)</br>
-						 --> Webpy (Python Web Framework)</br>
-						 --> Highcharts (Js Library for graphs)</br>
-						 --> Materialize (CSS Library)</br>
-						 --> Jquery</br>
-						 --> Ajax
-				
-					 <br/><br/>
-						<sm><i class="icon-tag"></i> front-end</sm></more> 
-					</p>
-				</div>
-				
-				
-		
-		</div><!--/.row -->
-		<br>
-		<br>
-	</div><!--/.container -->
-	
-
-
-	<section id="contact" name="contact"></section>
-	<!--FOOTER DESCRIPTION -->
-	<div id="footwrap">
-		<div class="container">
-			<div class="row">
+				<!-- top-hedader -->
+				<div class="top-header">
+					<!-- /logo -->
+					<!--top-nav---->
+					<div class="top-nav" >
+						<div class="navigation">
 			
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>CONTACT</h5>
+							<div class="navigation-right">
+								<span class="menu"><img src="images/menu.png" alt=" " /></span>
+								<nav class="link-effect-3" id="link-effect-3">
+									<ul class="nav1 nav nav-wil">
+										<li><a class="scroll" data-hover="HAKKINDA" href="#about">HAKKINDA</a></li>
+										<li><a class="scroll" data-hover="EĞİTİM" href="#work">EĞİTİM</a></li>
+										<li><a class="scroll" data-hover="TEKNOLOJİLER" href="#services" >TEKNOLOJİLER</a></li>
+										<li><a class="scroll" data-hover="PROJE" href="#port">PROJE</a></li>
+										<li><a class="scroll" data-hover="SERTİFİKA" href="#sertifika">SERTİFİKA</a></li>
+										<li><a class="scroll" data-hover="ETKİNLİK" href="#blogs">ETKİNLİK</a></li>
+										<li><span class="glyphicon glyphicon-download-alt" style="color: white" aria-hidden="true"><a target="_blank" href="Aşık_Fatma_CV.pdf">CV (PDF)</a></span></li>
+										<li><a class="scroll" data-hover="İLETİŞİM" href="#contact">İLETİŞİM</a></li>
+										
+									</ul>
+								</nav>
+								<!-- script-for-menu -->
+								<script>
+								   $( "span.menu" ).click(function() {
+									 $( "ul.nav1" ).slideToggle( 300, function() {
+									 // Animation complete.
+									  });
+									 });
+								</script>
+								<!-- /script-for-menu -->
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					<!-- /top-hedader -->
+					</div>
+					<div class="banner-info">
+						<div class="col-md-7 header-right">
+							<h1>Merhaba</h1>
+							<h6>Web Designer & Developer</h6>
+							<ul class="address">
+								<li>
+									<ul class="address-text">
+										<li><b>ADI</b></li>
+										<li>FATMA AŞIK</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="address-text">
+										<li><b>DOĞUM</b></li>
+										<li>01-01-1992</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="address-text">
+										<li><b>TELEFON</b></li>
+										<li>+90 539 779 27 12</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="address-text">
+										<li><b>ADRES </b></li>
+										<li>Akdeniz, MERSİN</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="address-text">
+										<li><b>E-MAIL </b></li>
+										<li><a href="mailto:fatmaasik33@gmail.com"> fatmaasik33@gmail.com</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-5 header-left">
+							<img src="images/img1.jpg" alt="">
+						</div>
+						<div class="clearfix"> </div>
+						
+		      		</div>
 				</div>
-				<div class="col-lg-6">
-					<p><t>Email</t><br/>
-						fatmaasik33@gmail.com <br/>
-					</p>
-					<p><t>Adress</t><br/>
-						Faculty of Engineering <br/>
-						Muğla Sıtkı Koçman University <br/>
-						Muğla, Turkey. <br/>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>SOCIAL LINKS</sm></p>
-					<p>
-						<a href="https://www.facebook.com/fatmaasik33.33"><i class="icon-facebook"></i></a>
-						<a href="https://www.linkedin.com/in/fatma-aşık-4304baaa"><i class="icon-linkedin"></i></a>
-
-					</p>
-				</div>
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #footer -->
-	
-	<div id="c">
-		<div class="container">
-			<p>Created by <a href="http://www.blacktie.co">Fatma Aşık</a></p>
-		
+			</div>
 		</div>
-	</div>
 	
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.js"></script>
-  </body>
+		<!-- about -->
+		<div id="about" class="about">
+			<div class="col-md-6 about-left" >
+				<div id="owl-demo1" class="owl-carousel owl-carousel2" autoplay='false'>
+	                <div class="item">
+	                	<div class="about-left-grid">
+							<h2>Merhaba! Ben <span>Fatma Aşık</span></h2>
+							<p>Bilgisayar Mühendisliği bölümünden yeni mezun oldum. Eğitim sürecim içerisinde araştırma ve farklı yetenekler edinme noktasında kendimi geliştirdim. Lisans öğrenimim sırasındaki zorunlu stajlar dışında deneyim sahibi değilim. Ancak web ve mobil uygulamaları geliştime, veritabanı yönetimi alanlarında temel bilgimin  güçlü olduğuna inanıyorum ve bu alanlara karşı yoğun ilgi duyuyorum. </p>
+							
+						</div>
+	                </div>                
+				</div>
+			</div>
+			<div class="col-md-6 about-right">
+				
+			</div>
+			<div class="clearfix"> </div>
+			<link href="css/owl.carousel.css" rel="stylesheet">
+			<script src="js/owl.carousel.js"></script>
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo1").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  false,
+						pagination : true,
+					});
+				});
+			</script>
+			<!-- Feedback -->
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo3").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  true,
+						pagination :true,
+					});
+				});
+			</script>
+		</div>
+		<!-- /about -->
+
+		<!--work-experience-->
+		<div id="work" class="work">
+			<div class="container">
+				<div class="service-head text-center">
+					<h3><span>EĞİTİM</span></h3>
+					<span class="border one"></span>
+				</div>
+				<div class="time-main w3l-agile">
+					<div class="col-md-6 year-info">
+					   <ul class="year">
+						   <li>2016 - </li>
+						   <li>2011 - 2016</li>
+						   <li>2006 - 2010</li>
+						   <div class="clearfix"></div>
+						</ul>
+					</div> 
+					<ul class="col-md-6 timeline">
+						<li>
+						  	<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+						  	<div class="timeline-panel">
+								<div class="timeline-heading">
+							  		<h4 class="timeline-title">ANADOLU ÜNiVERSİTESİ</h4>
+								</div>
+								<div class="timeline-body">
+									<h5>İŞLETME (Açıköğretim) </h5>
+								</div>
+						  	</div>
+						</li>
+						<li>
+						  	<div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+						  	<div class="timeline-panel">
+								<div class="timeline-heading">
+							  		<h4 class="timeline-title">MUĞLA SITKI KOÇMAN ÜNİVERSİTESİ</h4>
+								</div>
+								<div class="timeline-body">
+									<h5>BİLGİSAYAR MÜHENDİSLİĞİ (İngilizce) </h5>
+							  		<p>%100 İngilizce eğitim veren bölümden şeref öğrencisi olarak 3,18 ortalama ile mezun oldum.</p>
+								</div>
+						  	</div>
+						</li>										
+						<li>
+						  	<div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
+						  	<div class="timeline-panel">
+								<div class="timeline-heading">
+							  		<h4 class="timeline-title">GAZİ LİSESİ</h4>
+								</div>
+								<div class="timeline-body">
+									<h5>FEN BİLİMLERİ</h5>
+								</div>
+						  	</div>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<!--//work-experience-->
+
+		<!-- services -->
+		<div id="services" class="services">
+			<div class="container">
+				<div class="service-head one text-center ">
+					<h3><span>TEKNOLOJİLER</span></h3>
+					<span class="border two"></span>
+				</div>
+				<!-- services-grids -->
+				<div class="wthree_about_right_grids w3l-agile">
+					<div class="col-md-6 col-xs-12 col-sm-6 wthree_about_right_grid">
+						<div class="wthree_about_right_grid_right">
+							<h4>PROGRAMLAMA DİLLERİ</h4>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/java.png">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/python.png">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/php.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/perl.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/js.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/sql.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 col-xs-12 col-sm-6 wthree_about_right_grid">
+						<div class="wthree_about_right_grid_right">
+							<h4>İŞLETİM SİSTEMLERİ</h4>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/linux.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/windows.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 col-xs-12 col-sm-6 wthree_about_right_grid">
+						<div class="wthree_about_right_grid_right">
+							<h4>Web Framework</h4>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/laravel.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/web2py.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/webpy.jpeg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+						</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 col-xs-12 col-sm-6 wthree_about_right_grid">
+						<div class="wthree_about_right_grid_right">
+							<h4>DİĞERLERİ</h4>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/mysql.png">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/restful.png">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/scrapy.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/solr.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/bootstrap.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/ccna.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/joomla.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-4 wthree_about_right_grid">
+								<div class="wthree_about_right_grid_left">
+									<div class="hvr-rectangle-in">
+										<img class="img-responsive" src="images/wordpress.jpg">
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+				<!-- services-grids -->
+			</div>
+		</div>
+		<!-- services -->
+
+
+		<!-- portfolio -->
+		<div class="portfolio" id="port">
+			<div class="service-head text-center">
+				<h3><span>PROJELER</span></h3>
+				<span class="border"></span>
+			</div>
+			<div class="portfolio-grids">
+				<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+				<script type="text/javascript">
+					$(document).ready(function () {
+						$('#horizontalTab').easyResponsiveTabs({
+							type: 'default', //Types: default, vertical, accordion           
+							width: 'auto', //auto or any width like 600px
+							fit: true   // 100% fit in a container
+						});
+					});
+									
+				</script>
+				<div class="sap_tabs">
+					<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						<ul class="resp-tabs-list">
+							<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>TÜMÜ</span></li> 
+							<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Python</span></li> 
+							<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>PHP</span></li> 				
+							<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Solr</span></li> 
+							<li class="resp-tab-item" aria-controls="tab_item-4" role="tab"><span>Java</span></li> 
+						</ul>				  	 
+						<div class="resp-tabs-container">
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+								<div class="col-md-3 team-gd ">
+									<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+										<img class="hover" src="images/senior-project.png" alt="">
+									</a>	
+								</div>
+								<div class="col-md-3 team-gd ">
+									<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+										<img class="hover" src="images/ceng.png" alt="">
+									</a>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+										<img class="hover" src="images/webmining.jpeg" alt="">
+									</a>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+										<img class="hover" src="images/dwp.png" alt="">
+									</a>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+										<img class="hover" src="images/ir-project.png" alt="">
+									</a>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+										<img class="hover" src="images/browser.png" alt="">
+									</a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+											<img class="hover" src="images/senior-project.png" alt="">
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd  ">
+									<div class="thumb">
+										<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+											<img class="hover" src="images/ceng.png" alt="">
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+										<img class="hover" src="images/webmining.jpeg" alt="">
+									</a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+								<div class="col-md-3 team-gd ">
+									<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+										<img class="hover" src="images/dwp.png" alt="">
+									</a>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+										<img class="hover" src="images/ir-project.png" alt="">
+									</a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+								<div class="col-md-3 team-gd ">
+									<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+										<img class="hover" src="images/ir-project.png" alt="">
+									</a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-4">
+								<div class="col-md-3 team-gd">
+									<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+										<img class="hover" src="images/browser.png" alt="">
+									</a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //portfolio -->
+
+		<!-- certificates -->
+		<div id="sertifika" class="services">
+			<div class="container">
+				<div class="service-head one text-center ">
+					<h3><span>SERTİFİKALAR</span></h3>
+					<span class="border two"></span>
+				</div>
+				<!-- services-grids -->
+				<div class="wthree_about_right_grids w3l-agile sertifikalar">
+					<div class="col-md-12 wthree_about_right_grid sertifika">
+						<div class="col-xs-12 wthree_about_right_grid_right">
+							<h4>- CCNA Routing and Switching: Introduction to Networks</h4>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-12 wthree_about_right_grid sertifika">
+						<div class="col-xs-12 wthree_about_right_grid_right">
+							<h4>- CISCO Introduction to Cybersecurity</h4>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-12 wthree_about_right_grid sertifika">
+						<div class="col-xs-12 wthree_about_right_grid_right">
+							<h4>- CCNA Routing and Switching: Routing and Switching Essentials</h4>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+				<!-- services-grids -->
+			</div>
+		</div>
+		<!-- cerificates -->
+
+    	<!-- top-grids -->
+		<div class="blog" id="blogs">
+			<div class="container">
+				<div class="service-head text-center">
+					<h3><span>ETKİNLİKLER</span></h3>
+					<span class="border one"></span>
+				</div>
+			    <div class="news-grid w3l-agile">
+			    	<div class="col-md-6 news-img">
+				  		<a href="#" data-toggle="modal" data-target="#myModal1"><img src="images/gbyf.jpg" alt=" " class="img-responsive"></a>
+					</div>
+			    	<div class="col-md-6 news-text">
+				    	<h3> <a href="#" data-toggle="modal" data-target="#myModal1">GBYF</a></h3>
+						<h6>V. Genç Beyinler Yeni Fikirler 2016 bitirme projeleri sergisi</h6>
+						<p>Proje : Medyadaki Kelime Seçimlerinin Metinsel Analizi ve Görselleştirilmesi</p>
+						
+					</div>
+					<div class="clearfix"></div>
+			 	</div>
+			  	<div class="news-grid">
+			    	<div class="col-md-6 news-text two">
+				   		<h3> <a href="#" data-toggle="modal" data-target="#myModal1">AB 2016</a></h3>
+						<h6>AB 2016 XVIII. Akademik Bilişim Konferansı(Kursiyer)</h6>
+						<p>Kurs : Php Usulüne Uygun.</p>
+					</div>
+					<div class="col-md-6 news-img two">
+				   		<a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/ab2016.jpg" alt=" " class="img-responsive"></a>
+					</div>
+					<div class="clearfix"></div>
+			 	</div>
+			</div>
+		</div>
+		<!-- top-grids -->
+
+		<!-- /header -->
+		<div class="footer" id="contact">
+			<div class="container">
+				<div class="service-head one text-center">
+					<h3><span>İLETİŞİM BİLGİLERİ</span></h3>
+					<span class="border two"></span>
+				</div>
+				<div class="mail_us">
+					<div class="col-md-12 mail_left">
+						<div class="col-md-4">
+							<div class="contact-grid1-left1">
+								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+								<h4>Email</h4>
+								<ul>
+									<li>Mail1: <a href="mailto:fatmaasik33@gmail.com">fatmaasik33@gmail.com</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="contact-grid1-left1">
+								<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+								<h4>Telefon</h4>
+								<ul>
+									<li>+90 539 779 27 12</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="contact-grid1-left1">
+								<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+								<h4>Adres</h4>
+								<ul>
+									<li>Akdeniz, MERSİN</li>
+								</ul>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="copy_right text-center">
+					<p>&copy; 2016  All rights reserved | Design by Fatma Aşık.</p>
+					 <ul class="social-icons two">
+						<li><a href="https://www.facebook.com/fatmaasik33.33" target="_blank" class="fb"> </a></li>
+						<li><a href="https://plus.google.com/u/0/115726017302318094975" target="_blank" class="google"> </a></li>
+						<li><a href="https://tr.linkedin.com/in/fatma-aşık-4304baaa" target="_blank" class="in"> </a></li>
+						<li><a href="https://github.com/fatmaask" target="_blank" class="github"> </a></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<!-- //footer -->
+		
+		<!-- /container -->
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    		<div class="modal-content port-modal">
+       	 		<div class="close-modal" data-dismiss="modal">
+            		<div class="lr">
+               		 	<div class="rl"></div>
+            		</div>
+        		</div>
+        		<div class="container">
+					<div class="row">
+                		<div class="col-lg-8 col-lg-offset-2 text-center">
+		                    <div class="modal-body">
+								<h3>Medyadaki Kelime Seçimlerinin Metinsel Analizi ve Görselleştirilmesi</h3>
+		                        <img src="images/senior-project.png" class="img-responsive img-centered" alt="">
+		                        <p>Bu projede 28 ayrı gazeteden 265 bin köşe yazısı bir derlem olarak oluşturulmuş ve bu derlem üzerinden istatistiki metin analizi ve makine öğrenmesi yöntemleriyle kelime vektörleri elde edilmiştir.
+								Bu vektörler sayesinde bir kelimeyle benzer bağlamlarda geçen ilişkili diğer kelimeler keşfedilebilmektedir. Kelimeler arasındaki bu ilişkilerin gazetelere göre gösterdikleri benzerlikler ve farklılıklar sayesinde ise yazılarda kullanılan dil açısından gazeteler kümelenebilmektedir.
+								Kelime ilişkilerinin ve gazete kümelenmelerinin kullanıcılar tarafından incelenebilmesi için uygun bir görselleştirilme oluşturulmuş ve web uygulaması olarak hizmete sunulmuştur. Ortaya konan bu uygulama sayesinde gazetelerin ve köşe yazarlarının birbiriyle yakınlıkları ve kullanılan haber ve yazı dili incelenebilecektir.</p>
+		                    </div>
+                		</div>
+            		</div>
+       	 		</div>
+    		</div>
+		</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+		    <div class="modal-content port-modal">
+		        <div class="close-modal" data-dismiss="modal">
+		            <div class="lr">
+		                <div class="rl"></div>
+		            </div>
+		        </div>
+		        <div class="container">
+					<div class="row">
+		                <div class="col-lg-8 col-lg-offset-2 text-center">
+		                    <div class="modal-body">
+								<h3>MSKÜ Bilgisayar Mühendisliği Bölüm Websitesi</h3>
+		                        <img src="images/ceng.png" class="img-responsive img-centered" alt="">
+		                        <p>Muğla Sıtkı Koçman Üniversitesi Bilgisayar Mühendisliği Bölüm websitesi arayüz tasarımı ve içerik yönetim sistemi geliştirme.
+		                        Projenin web uygulamasını görmek için <a href="http://ceng.pythonanywhere.com" target="_blank">buraya</a> tıklayın.</p>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+		    <div class="modal-content port-modal">
+		        <div class="close-modal" data-dismiss="modal">
+		            <div class="lr">
+		                <div class="rl"></div>
+		            </div>
+		        </div>
+		        <div class="container">
+					<div class="row">
+		                <div class="col-lg-8 col-lg-offset-2 text-center">
+		                    <div class="modal-body">
+								<h3>Web Mining</h3>
+		                        <img src="images/webmining.jpeg" class="img-responsive img-centered" alt="">
+		                        <p>Bu proje <a href="http://www.sinemalar.com/kullanici/fatmaasik33/izledikleri/filmler" target="_blank">sinemalar.com</a> adresindeki filmler scrapy ile bir derlem oluşturularak verilerin highcharts ile görselleştirilmesiyle oluşturulmuştur. Kullanılan teknolojiler; Scrapy (Python Web Crawler Framework), Web.py (Python Web Framework), Highcharts ( Interactive JavaScript charts), Materialize (CSS Framework), Jquery, Ajax. Projenin web uygulamasını <a href="http://webmining.herokuapp.com" target="_blank">buradan</a> görebilirsiniz.</p>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+		    <div class="modal-content port-modal">
+		        <div class="close-modal" data-dismiss="modal">
+		            <div class="lr">
+		                <div class="rl"></div>
+		            </div>
+		        </div>
+		        <div class="container">
+					<div class="row">
+		                <div class="col-lg-8 col-lg-offset-2 text-center">
+		                    <div class="modal-body">
+								<h3>Dynamic Web Programming</h3>
+		                        <img src="images/dwp.png" class="img-responsive img-centered" alt="">
+		                        <p>Bu proje php laravel web framework kullanılarak oluşturulmuştur. Login olma, yorum yapma, benzer filmleri görme, izlediklerime ekle gibi birkaç özellikle zenginleştirilmiştir. Kullanılan diğer teknolojiler; Bootstrap, PhpMyAdmin. Projenin web uygulamasını <a href="http://fatmaasik.hol.es" target="_blank">buradan</a> görebilirsiniz.</p>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+		    <div class="modal-content port-modal">
+		        <div class="close-modal" data-dismiss="modal">
+		            <div class="lr">
+		                <div class="rl"></div>
+		            </div>
+		        </div>
+		        <div class="container">
+					<div class="row">
+		                <div class="col-lg-8 col-lg-offset-2 text-center">
+		                    <div class="modal-body">
+								<h3>Arama Motoru (Search Engine)</h3>
+		                        <img src="images/ir-project.png" class="img-responsive img-centered" alt="">
+		                        <p>Bu projede <a href="http://www.sinemalar.com/kullanici/fatmaasik33/izledikleri/filmler" target="_blank">sinemalar.com</a> adresinden bir derlem oluşturulmuştur. Solr a aktarılan veriler solarium(php) ile görselleştirilmiştir. Kullanılan teknolojiler; Apache Solr, Php - Solarium (for Apache Solr connection), Php - Laravel, Bootstrap. Projenin web uygulamasını <a href="http://fatmaasik-solr.esy.es" target="_blank">buradan</a> görebilirsiniz.</p>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+		    <div class="modal-content port-modal">
+		        <div class="close-modal" data-dismiss="modal">
+		            <div class="lr">
+		                <div class="rl"></div>
+		            </div>
+		        </div>
+		        <div class="container">
+					<div class="row">
+		                <div class="col-lg-8 col-lg-offset-2 text-center">
+		                    <div class="modal-body">
+								<h3>Web Browser</h3>
+		                        <img src="images/browser.png" class="img-responsive img-centered" alt="">
+		                        <p>Bu proje java swt ile oluşturulmuştur. Projenin kodlarını görmek için <a href="https://github.com/fatmaask/Aramis" target="_blank">buradan</a> tıklayabilirsiniz.</p>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>		
+		<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		<!--start-smooth-scrolling-->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+				var defaults = {
+		  			containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+		 		};
+				*/
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+		<!--end-smooth-scrolling-->
+		<!-- //for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+	</body>
 </html>
+
